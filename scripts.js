@@ -52,6 +52,7 @@ function concluirTarefa(posicao) {
 }
 
 function deletarItem(posicao) {
+  confirm('Deletar tarefa?')
   minhaListaDeItens.splice(posicao, 1)
 
   mostrarTarefas()
