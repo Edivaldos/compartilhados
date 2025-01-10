@@ -7,7 +7,7 @@ let minhaListaDeItens = []
 function adicionarNovaTarefa() {
   if(input.value == ''){
     recarregarTarefas()
-    alert("Insira sua tarefa!")
+    alert("Insira sua tarefa ou item!")
     return(false);
     
   }else{
