@@ -50,7 +50,7 @@ body{
 }
 
 .list-tasks {
-    width: 500px;
+    width: 80%;
     list-style: none;
     margin-top: 30px;
 }
