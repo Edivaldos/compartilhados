@@ -5,7 +5,7 @@ const listaCompleta = document.querySelector('.list-tasks')
 let minhaListaDeItens = []
 
 function adicionarNovaTarefa() {
-  if(input.value == 'f'){
+  if(2){
     alert("Insira a tarefa!")
     recarregarTarefas()
     
