@@ -8,7 +8,7 @@ function adicionarNovaTarefa() {
   if(document.querySelector('.input-task') == ''){
     alert("Insira a tarefa!")
     recarregarTarefas()
-    return(false);
+    
   }else{
   minhaListaDeItens.push({
     tarefa: input.value,
