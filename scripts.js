@@ -16,7 +16,6 @@ function adicionarNovaTarefa() {
   mostrarTarefas()
   }else{
     alert('Insira a tarefa');
-    return false;
   }
 }
 
