@@ -5,7 +5,7 @@ const listaCompleta = document.querySelector('.list-tasks')
 let minhaListaDeItens = []
 
 function adicionarNovaTarefa() {
-  if(input == null){
+  if(input !== ''){
   minhaListaDeItens.push({
     tarefa: input.value,
     concluida: false,
