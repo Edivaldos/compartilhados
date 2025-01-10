@@ -8,8 +8,8 @@ function adicionarNovaTarefa() {
   if(input.value == ''){
     recarregarTarefas()
     alert("Insira sua tarefa!")
-    
     return(false);
+    
   }else{
     minhaListaDeItens.push({
       tarefa: input.value,
