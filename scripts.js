@@ -52,10 +52,13 @@ function concluirTarefa(posicao) {
 }
 
 function deletarItem(posicao) {
-  confirm('Deletar tarefa?')
+  if(confirm('Deletar tarefa?')){
   minhaListaDeItens.splice(posicao, 1)
 
   mostrarTarefas()
+  }else{
+    return (false);
+  }
 }
 
 function recarregarTarefas() {
