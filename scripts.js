@@ -7,6 +7,9 @@ let minhaListaDeItens = []
 function adicionarNovaTarefa() {
   if(input == ''){
     alert("Insira a tarefa!");
+    input.value = ''
+
+    mostrarTarefas()
     return(false);
   }else{
   minhaListaDeItens.push({
