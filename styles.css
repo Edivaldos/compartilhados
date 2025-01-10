@@ -52,8 +52,7 @@ body{
 .list-tasks {
     width: 90%;
     list-style: none;
-    
-    margin: 100px 30px 0;
+    margin-top: 30px;
 }
 
 .task {
