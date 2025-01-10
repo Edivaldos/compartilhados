@@ -12,11 +12,11 @@ function adicionarNovaTarefa() {
   })
 
   input.value = ''
-
-  mostrarTarefas()
   }else{
     alert('Insira a tarefa');
   }
+  mostrarTarefas()
+  
 }
 
 function mostrarTarefas() {
