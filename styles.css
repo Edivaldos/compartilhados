@@ -17,7 +17,7 @@ body{
     border-radius: 10px;
     padding: 20px;
     margin: 100px auto 0;
-    display: block;
+    display: flex;
 }
 
 .input-task {
