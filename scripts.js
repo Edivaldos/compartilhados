@@ -17,8 +17,8 @@ function adicionarNovaTarefa() {
     })
     input.value = ''
   
-    mostrarTarefas()  
-  
+    mostrarTarefas()
+  }  
 }
 
 function mostrarTarefas() {
