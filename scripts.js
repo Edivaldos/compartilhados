@@ -14,9 +14,10 @@ function adicionarNovaTarefa() {
     concluida: false,
   })
   input.value = ''
-  
-  }
+
   mostrarTarefas()
+  }
+  
   
 }
 
